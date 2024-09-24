@@ -10,8 +10,8 @@ plt.rcParams['font.sans-serif'] = ['Arial']
 plt.rcParams['font.family'] = 'sans-serif'
 
 # Load data
-day_df = pd.read_csv('day_data_bersih.csv')
-hour_df = pd.read_csv('hour_data_bersih.csv')
+day_df = pd.read_csv('https://github.com/Jabir0/sumission-course-dicoding/blob/main/dashboard/day_data_bersih.csv')
+hour_df = pd.read_csv('https://github.com/Jabir0/sumission-course-dicoding/blob/main/dashboard/hour_data_bersih.csv')
 
 # Define mappings for categorical data
 season_map = {1: 'Spring/Semi', 2: 'Summer/Panas', 3: 'Fall/Gugur', 4: 'Winter/Dingin'}
